@@ -36,7 +36,7 @@ public class EventKey {
 
 ### Registering the event.
 1. Go to the place in the minecraft source code where you want to register your event, for example, to register a key event (used as the example event above) , go to `net.minecraft.client.Minecraft.java:1800`.
-2. Then above "if (k == 1)", please type `Bretthack.singleton.eventBus.post(new EventKeyPressed(k));`
+2. Then above "if (k == 1)", please type `Tutorial.singleton.eventBus.post(new EventKeyPressed(k));`
 
 #### Example:
 
@@ -44,7 +44,7 @@ public class EventKey {
 public class Minecraft implements IThreadListener, IPlayerUsage {
     public void runTick() throws IOException {
         // Line 1800
-        Bretthack.singleton.eventBus.post(new EventKeyPressed(k));
+        Tutorial.singleton.eventBus.post(new EventKeyPressed(k));
         if (k == 1) {
             this.displayInGameMenu();
         }
