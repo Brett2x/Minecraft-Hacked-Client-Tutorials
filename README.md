@@ -66,7 +66,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage {
 #### Example:
 * You can use `Keyboard.KEY_<Key>` for the key in the constructor, or if you don't want to bind the module to a key, type `Keyboard.KEY_NONE` or `0`.
 	* Make sure that `Keyboard` is being imported from `org.lwjgl.input.Keyboard`.
-
+<br>
 ```java
 package me.brett.tutorial.module.impl.category;
 
