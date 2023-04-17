@@ -2,8 +2,8 @@
 
 ## Notes for readers
 
-> One of the most useful ways that I have found to learn new things in general is to teach others about it, so I have decided to make a tutorial which can help others create their own minecraft hacked clients and potentially help them understand more about Minecraft and Java. I am not the best developer so if you find anything in this project which is done extremely poorly, feel free to let me know on discord, my handle is: brett#0437
-> if you would like to listen to me explain how everything works, you can find the full tutorial starting with [this video](https://www.youtube.com/watch?v=NDZODa9IFXc).
+> ***Note*** One of the most useful ways that I have found to learn new things in general is to teach others about it, so I have decided to make a tutorial which can help others create their own minecraft hacked clients and potentially help them understand more about Minecraft and Java. I am not the best developer so if you find anything in this project which is done extremely poorly, feel free to let me know on discord, my handle is: brett#0437 </br>
+> if you would like to listen to me explain how everything works, you can find the full tutorial starting with *[this video](https://www.youtube.com/watch?v=NDZODa9IFXc)*.
 
 # Coding your own modules
 
