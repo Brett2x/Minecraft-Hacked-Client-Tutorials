@@ -1,14 +1,17 @@
 # Client Coding Tutorial
 
-## Notes for readers
+## Notes
+> **Note** if you would like to listen to me explain how everything works, you can find the full tutorial starting with *[this video](https://www.youtube.com/watch?v=NDZODa9IFXc).*
 
-> One of the most useful ways that I have found to learn new things in general is to teach others about it, so I have decided to make a tutorial which can help others create their own minecraft hacked clients and potentially help them understand more about Minecraft and Java. I am not the best developer so if you find anything in this project which is done extremely poorly, feel free to let me know on discord, my handle is: brett#0437
-> if you would like to listen to me explain how everything works, you can find the full tutorial starting with [this video](https://www.youtube.com/watch?v=NDZODa9IFXc).
+## Reason
+One of the most useful ways that I have found to learn new things in general is to teach others about it, so I have decided to make a tutorial which can help others create their own minecraft hacked clients and potentially help them understand more about Minecraft and Java. 
+
+## Disclamer
+I am not the best developer so if you find anything in this project which is done extremely poorly, feel free to let me know on discord, my handle is: `brett#0437` or by making a new issue *[here](https://github.com/Brett2x/Minecraft-Hacked-Client-Tutorials/issues)*
 
 # Coding your own modules
 
 ## Creating new events.
-
 If you would like to add an event to this client, you can:
 
 ### Creating a class for the event
