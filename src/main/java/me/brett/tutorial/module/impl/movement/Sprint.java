@@ -7,8 +7,8 @@ import me.brett.tutorial.module.Module;
 import me.brett.tutorial.module.ModuleCategory;
 import org.lwjgl.input.Keyboard;
 
-public class ModuleSprint extends Module {
-    public ModuleSprint() {
+public class Sprint extends Module {
+    public Sprint() {
         super("Sprint", "Sets the player as sprinting constantly", ModuleCategory.MOVEMENT, Keyboard.KEY_F);
     }
 
@@ -16,6 +16,5 @@ public class ModuleSprint extends Module {
     public void onUpdate(EventUpdate event) {
         mc.gameSettings.keyBindSprint.pressed = true;
     }
-
 
 }
