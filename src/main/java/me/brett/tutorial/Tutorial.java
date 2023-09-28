@@ -18,8 +18,7 @@ public class Tutorial {
 
     private static Tutorial singleton;
 
-    public static String NAME = "Tutorial";
-    public static String VERSION = "0.0.1";
+    public String NAME = "Tutorial", VERSION = "0.0.1";
 
     public ModuleManager moduleManager = new ModuleManager();
     public EventBus eventBus = new EventBus();
@@ -32,7 +31,7 @@ public class Tutorial {
     }
 
     public void init() {
-        Display.setTitle(NAME + VERSION);
+        Display.setTitle(NAME + " " + VERSION);
         moduleManager.init();
         eventBus.register(this);
     }
